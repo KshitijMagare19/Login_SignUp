@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp9764105.jpg");
+    background-position: center;
+    background-size: 1400px 1200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.container1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+    width: 100%;
+    align-items: center;
+    border: 5px solid #fff;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
