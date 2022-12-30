@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-modern-simple-elegant-cool-gradient-cream-landing-page-website-background-picture-image_1455090.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    width: 98%;
+    align-items: center;
+    border: 5px solid rgb(7, 7, 7);
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    display: block;
+    text-transform:lowercase ;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(8, 0, 0, 0.3);
+    transition: 0.5s;
+    color: #fff;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: #fff;
+    text-transform:capitalize ;
+}
+input:focus{
+    color: rgb(3, 3, 3);
+}
